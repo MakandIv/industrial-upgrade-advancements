@@ -1,17 +1,17 @@
 {
   "display": {
     "icon": {
-      "item": "industrialupgrade:itemingots",
-      "data": 6
+      "item": "ic2:casing",
+	  "data": 1
     },
     "title": {
-      "translate": "advancement.cobalt_ingot"
+      "translate": "advancement.copper_item_casing"
     },
     "description": {
-      "translate": "advancement.cobalt_ingot.desc"
+      "translate": "advancement.copper_item_casing.desc"
     }
   },
-  "parent": "industrialupgrade:basic_ores/cobalt_ore",
+  "parent": "industrialupgrade:beginning/copper_plate",
   "criteria": {
     "mine": {
       "trigger": "minecraft:inventory_changed",
@@ -19,7 +19,7 @@
         "items": [
           {
             "type": "forge:ore_dict",
-            "ore": "ingotCobalt"
+			"ore": "casingCopper"
           }
         ]
       }

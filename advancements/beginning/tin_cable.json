@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "ic2:cable",
+	  "data": 4,
+	  "nbt": "{type:4b,insulation:0b}"
+    },
+    "title": {
+      "translate": "advancement.tin_cable"
+    },
+    "description": {
+      "translate": "advancement.tin_cable.desc"
+    }
+  },
+  "parent": "industrialupgrade:beginning/cutter",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ic2:cable",
+			"data": 4,
+			"nbt": "{type:4b,insulation:0b}"
+          }
+        ]
+      }
+    }
+  }
+}

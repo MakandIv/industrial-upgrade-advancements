@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "ic2:forge_hammer"
+    },
+    "title": {
+      "translate": "advancement.forge_hammer"
+    },
+    "description": {
+      "translate": "advancement.forge_hammer.desc"
+    }
+  },
+  "parent": "industrialupgrade:basic_ingots/iron_ingot",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ic2:forge_hammer"
+          }
+        ]
+      }
+    }
+  }
+}

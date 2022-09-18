@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "ic2:treetap"
+    },
+    "title": {
+      "translate": "advancement.treetap"
+    },
+    "description": {
+      "translate": "advancement.treetap.desc"
+    }
+  },
+  "parent": "industrialupgrade:beginning/tin_cable",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ic2:treetap"
+          }
+        ]
+      }
+    }
+  }
+}

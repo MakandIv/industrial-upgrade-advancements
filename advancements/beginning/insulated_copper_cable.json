@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "ic2:cable",
+	  "data": 0,
+	  "nbt": "{type:0b,insulation:1b}"
+    },
+    "title": {
+      "translate": "advancement.insulated_copper_cable"
+    },
+    "description": {
+      "translate": "advancement.insulated_copper_cable.desc"
+    }
+  },
+  "parent": "industrialupgrade:beginning/copper_cable",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ic2:cable",
+			"data": 0,
+			"nbt": "{type:0b,insulation:1b}"
+          }
+        ]
+      }
+    }
+  }
+}

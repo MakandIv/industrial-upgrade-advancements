@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "ic2:cutter"
+    },
+    "title": {
+      "translate": "advancement.cutter"
+    },
+    "description": {
+      "translate": "advancement.cutter.desc"
+    }
+  },
+  "parent": "industrialupgrade:beginning/forge_hammer",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ic2:cutter"
+          }
+        ]
+      }
+    }
+  }
+}

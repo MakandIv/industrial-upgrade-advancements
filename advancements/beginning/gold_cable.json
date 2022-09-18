@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "ic2:cable",
+	  "data": 2,
+	  "nbt": "{type:2b,insulation:0b}"
+    },
+    "title": {
+      "translate": "advancement.gold_cable"
+    },
+    "description": {
+      "translate": "advancement.gold_cable.desc"
+    }
+  },
+  "parent": "industrialupgrade:beginning/tin_cable",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ic2:cable",
+			"data": 2,
+			"nbt": "{type:2b,insulation:0b}"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "ic2:misc_resource",
+	  "data": 4
+    },
+    "title": {
+      "translate": "advancement.sticky_resin"
+    },
+    "description": {
+      "translate": "advancement.sticky_resin.desc"
+    }
+  },
+  "parent": "industrialupgrade:beginning/treetap",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ic2:misc_resource",
+			"data": 4
+          }
+        ]
+      }
+    }
+  }
+}

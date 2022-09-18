@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "ic2:crafting"
+    },
+    "title": {
+      "translate": "advancement.rubber"
+    },
+    "description": {
+      "translate": "advancement.rubber.desc"
+    }
+  },
+  "parent": "industrialupgrade:beginning/sticky_resin",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ic2:crafting"
+          }
+        ]
+      }
+    }
+  }
+}

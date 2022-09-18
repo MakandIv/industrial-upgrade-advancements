@@ -1,17 +1,17 @@
 {
   "display": {
     "icon": {
-      "item": "industrialupgrade:itemingots",
-      "data": 6
+      "item": "ic2:plate",
+	  "data": 3
     },
     "title": {
-      "translate": "advancement.cobalt_ingot"
+      "translate": "advancement.iron_plate"
     },
     "description": {
-      "translate": "advancement.cobalt_ingot.desc"
+      "translate": "advancement.iron_plate.desc"
     }
   },
-  "parent": "industrialupgrade:basic_ores/cobalt_ore",
+  "parent": "industrialupgrade:beginning/forge_hammer",
   "criteria": {
     "mine": {
       "trigger": "minecraft:inventory_changed",
@@ -19,7 +19,7 @@
         "items": [
           {
             "type": "forge:ore_dict",
-            "ore": "ingotCobalt"
+			"ore": "plateIron"
           }
         ]
       }
