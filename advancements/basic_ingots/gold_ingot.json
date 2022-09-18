@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "advancement.gold_ingot"
+    },
+    "description": {
+      "translate": "advancement.gold_ingot.desc"
+    }
+  },
+  "parent": "industrialupgrade:basic_ores/gold_ore",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "type": "forge:ore_dict",
+            "ore": "ingotGold"
+          }
+        ]
+      }
+    }
+  }
+}

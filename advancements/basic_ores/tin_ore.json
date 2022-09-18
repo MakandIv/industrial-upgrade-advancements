@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "ic2:resource",
+      "data": 3
+    },
+    "title": {
+      "translate": "advancement.tin_ore"
+    },
+    "description": {
+      "translate": "advancement.tin_ore.desc"
+    }
+  },
+  "parent": "industrialupgrade:root",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "type": "forge:ore_dict",
+            "ore": "oreTin"
+          }
+        ]
+      }
+    }
+  }
+}

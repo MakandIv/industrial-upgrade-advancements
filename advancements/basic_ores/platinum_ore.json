@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "industrialupgrade:baseore",
+      "data": 7
+    },
+    "title": {
+      "translate": "advancement.platinum_ore"
+    },
+    "description": {
+      "translate": "advancement.platinum_ore.desc"
+    }
+  },
+  "parent": "industrialupgrade:root",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "type": "forge:ore_dict",
+            "ore": "orePlatinum"
+          }
+        ]
+      }
+    }
+  }
+}

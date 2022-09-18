@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "industrialupgrade:itemingots",
+      "data": 9
+    },
+    "title": {
+      "translate": "advancement.platinum_ingot"
+    },
+    "description": {
+      "translate": "advancement.platinum_ingot.desc"
+    }
+  },
+  "parent": "industrialupgrade:basic_ores/platinum_ore",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "type": "forge:ore_dict",
+            "ore": "ingotPlatinum"
+          }
+        ]
+      }
+    }
+  }
+}

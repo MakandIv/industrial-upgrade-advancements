@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "industrialupgrade:itemingots",
+      "data": 10
+    },
+    "title": {
+      "translate": "advancement.titanium_ingot"
+    },
+    "description": {
+      "translate": "advancement.titanium_ingot.desc"
+    }
+  },
+  "parent": "industrialupgrade:basic_ores/titanium_ore",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "type": "forge:ore_dict",
+            "ore": "ingotTitanium"
+          }
+        ]
+      }
+    }
+  }
+}

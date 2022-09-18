@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "industrialupgrade:itemingots",
+      "data": 11
+    },
+    "title": {
+      "translate": "advancement.chromium_ingot"
+    },
+    "description": {
+      "translate": "advancement.chromium_ingot.desc"
+    }
+  },
+  "parent": "industrialupgrade:basic_ores/chromium_ore",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "type": "forge:ore_dict",
+            "ore": "ingotChromium"
+          }
+        ]
+      }
+    }
+  }
+}

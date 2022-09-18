@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_ore"
+    },
+    "title": {
+      "translate": "advancement.iron_ore"
+    },
+    "description": {
+      "translate": "advancement.iron_ore.desc"
+    }
+  },
+  "parent": "industrialupgrade:root",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "type": "forge:ore_dict",
+            "ore": "oreIron"
+          }
+        ]
+      }
+    }
+  }
+}

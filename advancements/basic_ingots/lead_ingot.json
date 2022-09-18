@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "ic2:ingot",
+      "data": 3
+    },
+    "title": {
+      "translate": "advancement.lead_ingot"
+    },
+    "description": {
+      "translate": "advancement.lead_ingot.desc"
+    }
+  },
+  "parent": "industrialupgrade:basic_ores/lead_ore",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "type": "forge:ore_dict",
+            "ore": "ingotLead"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_ore"
+    },
+    "title": {
+      "translate": "advancement.gold_ore"
+    },
+    "description": {
+      "translate": "advancement.gold_ore.desc"
+    }
+  },
+  "parent": "industrialupgrade:root",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "type": "forge:ore_dict",
+            "ore": "oreGold"
+          }
+        ]
+      }
+    }
+  }
+}

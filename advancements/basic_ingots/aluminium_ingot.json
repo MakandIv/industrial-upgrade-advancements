@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "industrialupgrade:itemingots",
+      "data": 1
+    },
+    "title": {
+      "translate": "advancement.aluminium_ingot"
+    },
+    "description": {
+      "translate": "advancement.aluminium_ingot.desc"
+    }
+  },
+  "parent": "industrialupgrade:basic_ores/aluminium_ore",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "type": "forge:ore_dict",
+            "ore": "ingotAluminium"
+          }
+        ]
+      }
+    }
+  }
+}

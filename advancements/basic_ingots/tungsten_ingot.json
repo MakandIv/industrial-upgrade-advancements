@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "industrialupgrade:itemingots",
+      "data": 3
+    },
+    "title": {
+      "translate": "advancement.tungsten_ingot"
+    },
+    "description": {
+      "translate": "advancement.tungsten_ingot.desc"
+    }
+  },
+  "parent": "industrialupgrade:basic_ores/tungsten_ore",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "type": "forge:ore_dict",
+            "ore": "ingotTungsten"
+          }
+        ]
+      }
+    }
+  }
+}

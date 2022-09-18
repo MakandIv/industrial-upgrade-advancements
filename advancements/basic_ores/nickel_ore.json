@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "industrialupgrade:baseore",
+      "data": 6
+    },
+    "title": {
+      "translate": "advancement.nickel_ore"
+    },
+    "description": {
+      "translate": "advancement.nickel_ore.desc"
+    }
+  },
+  "parent": "industrialupgrade:root",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "type": "forge:ore_dict",
+            "ore": "oreNickel"
+          }
+        ]
+      }
+    }
+  }
+}

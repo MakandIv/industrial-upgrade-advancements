@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "ic2:resource",
+      "data": 1
+    },
+    "title": {
+      "translate": "advancement.copper_ore"
+    },
+    "description": {
+      "translate": "advancement.copper_ore.desc"
+    }
+  },
+  "parent": "industrialupgrade:root",
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "type": "forge:ore_dict",
+            "ore": "oreCopper"
+          }
+        ]
+      }
+    }
+  }
+}
