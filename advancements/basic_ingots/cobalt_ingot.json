@@ -2,16 +2,16 @@
   "display": {
     "icon": {
       "item": "industrialupgrade:itemingots",
-      "data": 11
+      "data": 6
     },
     "title": {
-      "translate": "advancement.chromium_ingot"
+      "translate": "advancement.сobalt_ingot"
     },
     "description": {
-      "translate": "advancement.chromium_ingot.desc"
+      "translate": "advancement.сobalt_ingot.desc"
     }
   },
-  "parent": "industrialupgrade:basic_ores/chromium_ore",
+  "parent": "industrialupgrade:basic_ores/сobalt_ore",
   "criteria": {
     "mine": {
       "trigger": "minecraft:inventory_changed",
@@ -19,7 +19,7 @@
         "items": [
           {
             "type": "forge:ore_dict",
-            "ore": "ingotChromium"
+            "ore": "ingotCobalt"
           }
         ]
       }

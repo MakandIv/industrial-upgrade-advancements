@@ -1,2 +1,1 @@
-# industrial-upgrade-advancements
- 
+# Advancements of Industrial Upgrade
